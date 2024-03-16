@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="assets/logo.png" style="height: 50px;width:50px;margin: 5px;">
+          <a class="navbar-brand" href="index.html" style="margin-left: 10px;">E-commerce</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="cart.html">Your Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="profile.html">Your Profile</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Profile
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Change password
+                  </a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="form-check form-switch ms-auto">
+            <input class="form-check-input" type="checkbox" id="darkModeToggle">
+            <label class="form-check-label text-light" for="darkModeToggle">Dark Mode</label>
+        </div>
+        </div>
+      </nav>
+
+  <main>
+    <section>
+          <div class="container-card">
+            <div class="maincard active">
+              <img class="background" src="https://femina.wwmindia.com/content/2020/sep/home-appliances.jpg" alt="">
+      
+              <div class="card-content">
+      
+                <h3 class="title">Electronics</h3>
+              </div>
+              <div class="backdrop"></div>
+            </div>
+      
+            <div class="maincard">
+              <img class="background" src="https://i2-prod.mirror.co.uk/incoming/article171245.ece/ALTERNATES/s1200c/books-on-a-bookshelf-pic-getty-images-174065947.jpg" alt="">
+      
+              <div class="card-content">
+      
+                <h3 class="title">Books</h3>
+              </div>
+              <div class="backdrop"></div>
+            </div>
+      
+            <div class="maincard">
+              <img class="background" src="https://www.ikea.com/in/en/images/products/renshacka-clothes-cover-transparent-white__1085564_pe860163_s5.jpg" alt="">
+      
+              <div class="card-content">
+      
+                <h3 class="title">Clothes</h3>
+              </div>
+              <div class="backdrop"></div>
+            </div>
+      
+            <div class="maincard">
+              <img class="background" src="https://suprememobiles.in/cdn/shop/files/mobiles.jpg?crop=center&height=2048&v=1664280076&width=2048" alt="">
+      
+              <div class="card-content">
+      
+                <h3 class="title">Mobiles</h3>
+              </div>
+              <div class="backdrop"></div>
+            </div>
+      
+            <div class="maincard">
+              <img class="background" src="https://hips.hearstapps.com/hmg-prod/images/how-to-save-money-on-groceries-1673472736.png?crop=0.671xw:1.00xh;0,0&resize=1200:*" alt="">
+      
+              <div class="card-content">
+      
+                <h3 class="title">Groceries</h3>
+              </div>
+              <div class="backdrop"></div>
+            </div>
+            <div class="maincard">
+              <img class="background" src="https://i.dell.com/sites/csimages/App-Merchandizing_Images/all/laptop-category-latitude-14-9440-lf-rf-800x620.png" alt="">
+      
+              <div class="card-content">
+      
+                <h3 class="title">Laptops</h3>
+              </div>
+              <div class="backdrop"></div>
+            </div>
+          </div>
+    </section>
+
+    <div style="display:flex; justify-content: center; align-items: center; font-size: 30px; font-family:Verdana, Geneva, Tahoma, sans-serif;">
+      <p>TOP DEALS</p>
+    </div>
+  
+  <section>
+    <div id="card-scroll-container" draggable="true">
+    </div>
+  </section>
+
+    <section>
+    <div style="display: flex;flex-wrap: wrap;">
+      <div class="electronics">
+        <img src="assets/headphones.png" alt="headphones">
+        <h2>The smartest way of listening to music</h2>
+        <p>
+          Get 40% off on Sony Headphones
+        </p>
+        <button>Browse</button> 
+      </div>      
+      <div class="books">
+        <img src="assets/books.png">
+        <h2>Immerse yourself into the world of adventure</h2>
+        <p>
+          Buy selected bestselling books at 20% off
+        </p>
+        <button>Browse</button>
+      </div>
+      <div class="clothes">
+        <img src="assets/shoes.png">
+        <h2>Put your comfort first.</h2>
+        <p>
+          Get upto 70% off on Nike shoes
+        </p>
+        <button>Browse</button>
+      </div>
+    </div>
+    </section>
+
+  </main>
+
+  <div class="footer-clean" style="margin-top: 50px;">
+    <footer>
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-sm-4 col-md-3 item">
+                  <h3>Services</h3>
+                  <ul>
+                      <li><a href="#">Costumer Care</a></li>
+                      <li><a href="#">Return</a></li>
+                      <li><a href="#">Replace</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-4 col-md-3 item">
+                  <h3>About</h3>
+                  <ul>
+                      <li><a href="#">Company</a></li>
+                      <li><a href="#">Team</a></li>
+                      <li><a href="#">Legacy</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-4 col-md-3 item">
+                  <h3>Careers</h3>
+                  <ul>
+                      <li><a href="#">Job openings</a></li>
+                      <li><a href="#">Internships</a></li>
+                      <li><a href="#">Benefits</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                  <p class="copyright">E-commerce © 2024</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+</div>
+
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="javascr.js"></script>
+</body>
+</html>
